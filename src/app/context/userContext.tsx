@@ -2,8 +2,6 @@
 
 import React, { Dispatch, createContext, useReducer } from "react";
 
-// export const userContext = createContext([]);
-
 export type UserInteface = {
   id: number;
   first_name: string;
